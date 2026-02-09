@@ -11,8 +11,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    permissions: 
+      checks: write
     strategy:
       fail-fast: false
       matrix:
